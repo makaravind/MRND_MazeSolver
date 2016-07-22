@@ -1,0 +1,20 @@
+﻿Build started 6/5/2016 6:41:51 PM.
+     1>Project "F:\MRND-Summer\FileMazeServer\socket\socket.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\socket.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt WinServer.cpp
+         WinServer.cpp
+     1>f:\mrnd-summer\filemazeserver\socket\winserver.cpp(1): warning C4603: '_CRT_SECURE_NO_WARNINGS' : macro is not defined or definition is different after precompiled header use
+                 Add macro to precompiled header instead of defining here
+                 f:\mrnd-summer\filemazeserver\socket\winserver.cpp(2) : use of precompiled header
+     1>f:\mrnd-summer\filemazeserver\socket\winserver.cpp(248): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\MRND-Summer\FileMazeServer\Debug\socket.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\MRND-Summer\FileMazeServer\Debug\socket.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\MRND-Summer\FileMazeServer\Debug\socket.lib" /MACHINE:X86 Debug\socket.obj
+         Debug\stdafx.obj
+         Debug\WinServer.obj
+         socket.vcxproj -> F:\MRND-Summer\FileMazeServer\Debug\socket.exe
+     1>Done Building Project "F:\MRND-Summer\FileMazeServer\socket\socket.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.08
